@@ -27,7 +27,7 @@ const Shop = () => {
                 <h2 key={item.id}>
                     <ul className='item-list'>
                         <li>
-                            <A href= {`/shop/${item.id}`}>
+                            <A href={`/shop/${item.id}`}>
                                 {item.title}
                             </A> 
                         </li>
